@@ -1,0 +1,12 @@
+{
+  "name": "mocha_project",
+  "version": "1.0.0",
+  "description": "javascript test tutorial",
+  "main": "index.js",
+  "repository": "https://github.com/JaeYeopHan/javascript_test_tutorial",
+  "author": "jbee",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha $(find ./ -name '*./test/**/*.test.js') --recursive -w"
+  }
+}
