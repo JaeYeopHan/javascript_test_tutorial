@@ -8,5 +8,8 @@
   "license": "MIT",
   "scripts": {
     "test": "mocha $(find ./ -name '*./test/**/*.test.js') --recursive -w"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
   }
 }
