@@ -11,7 +11,8 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "json-server": "^0.9.6"
+    "json-server": "^0.9.6",
+    "mocha": "^3.2.0"
   },
   "dependencies": {
     "chai-http": "^3.0.0"
