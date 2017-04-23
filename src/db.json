@@ -1,6 +1,24 @@
 {
-  "user": {
-    "name": "Jbee",
-    "age": 25
-  }
+  "users": [
+    {
+      "id": 2,
+      "name": "angular",
+      "age": 1
+    },
+    {
+      "id": 3,
+      "name": "angular",
+      "age": 1
+    },
+    {
+      "id": 1,
+      "name": "Jbee",
+      "age": 25
+    },
+    {
+      "id": 4,
+      "name": "angular",
+      "age": 1
+    }
+  ]
 }
