@@ -10,6 +10,10 @@
     "test": "mocha $(find ./ -name '*./test/**/*.test.js') --recursive -w"
   },
   "devDependencies": {
-    "chai": "^3.5.0"
+    "chai": "^3.5.0",
+    "json-server": "^0.9.6"
+  },
+  "dependencies": {
+    "chai-http": "^3.0.0"
   }
 }
