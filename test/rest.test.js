@@ -1,5 +1,5 @@
-const chai = require('chai');
-const chaiHttp = require('chai-http');
+import chai from 'Chai';
+import chaiHttp from 'chai-http';
 const expect = chai.expect;
 chai.use(chaiHttp);
 const url = 'http://localhost:3000';
@@ -67,7 +67,6 @@ describe('POST', () => {
             .end((err, res) => {
                 expect(err).to.be.not.ok;
                 expect(res).to.have.status(201);
-                user = res.body;
                 done();
             });
     });

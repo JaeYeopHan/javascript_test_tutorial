@@ -10,20 +10,13 @@ JavaScript의 Unit Test에 대한 tutorial Github repository
 ```bash
 $ git clone https://github.com/JaeYeopHan/javascript_test_tutorial js_test_tutorial
 $ cd js_test_tutorial
-$ npm init
+$ npm install
 ```
 or
 ```bash
 $ yarn global add mocha
-```
-```bash
 $ yarn global add chai
-```
-```bash
 $ yarn add chai-http
-```
-and
-```bash
 $ yarn global add json-server
 ```
 
