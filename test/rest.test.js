@@ -67,7 +67,6 @@ describe('POST', () => {
             .end((err, res) => {
                 expect(err).to.be.not.ok;
                 expect(res).to.have.status(201);
-                user = res.body;
                 done();
             });
     });
