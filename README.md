@@ -22,7 +22,6 @@ $ yarn global add json-server
 
 ## Usage
 ```bash
-$ json-server --watch db.json
-$ cd test
+$ npm run fake:start
 $ npm test
 ```
